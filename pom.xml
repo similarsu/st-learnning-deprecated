@@ -12,5 +12,38 @@
         <module>st-learnning-logback</module>
     </modules>
 
-
+    <repositories>
+        <!--中央库备用-->
+        <repository>
+            <id>center-repo</id>
+            <name>Center Repository</name>
+            <url>http://repo.maven.apache.org/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <!--中央库备用-->
+        <pluginRepository>
+            <id>center-repo</id>
+            <name>Center Repository</name>
+            <url>http://repo.maven.apache.org/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+            <layout>default</layout>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
